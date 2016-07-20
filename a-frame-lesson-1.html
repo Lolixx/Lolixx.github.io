@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello, Keyboard! • A-Frame</title>
+    <meta name="description" content="VRCamp">
+    <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v1.13.0/dist/aframe-extras.min.js"></script>
+    <script src="https://rawgit.com/mayognaise/aframe-gif-shader/master/dist/aframe-gif-shader.min.js"></script>
+  </head>
+  
+  <body>
+    <a-scene>
+      <a-box color="#ff00ff" width="5" height="4" depth="3" position="3 2 -7" rotation="0 45 0" scale="2 .5 3" src ="texture.jpg" >
+        <a-animation attribute="rotation" begin="click" repeat="indefinite" to="0 360 0"></a-animation></a-box>
+      <a-sky src="photo.jpg"></a-sky>
+      <a-camera position="-3 0 3">
+      <a-cursor color="#FFFFF">
+      </a-camera>
+      <a-entity id="sound-entity" sound="src: brainpower.mp3; autoplay: true" position="-3 0 3"></a-entity>
+      <a-cylinder color="aqua" height="3" radius="1.5" position="5 0 2" src ="texture.jpg">
+        <a-animation attribute="rotation" begin="click" repeat="indefinite" to="360 0 0"></a-animation>
+      </a-cylinder>
+      <a-assets>
+        <img id="ground" src="ground.jpg">
+      </a-assets>
+      <!-- Textured plane. -->
+      <a-plane src="stars.jpg" height="5" width="5" position="-7 0 -6" rotation="0 0 180">
+        <a-animation attribute="rotation" begin="click" repeat="indefinite" to="0 0 360"></a-animation>
+      </a-plane>
+    </a-scene>
+  </body>
+
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+  <link rel="icon" href="photo.jpg">
+
+	<title>Woo, I made a webpage</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <style>
+      h1 {
+        font-size: 275%
+      }
+
+      body {
+        background-image: url("texture.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: rgb(100, 255, 255);
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 200%;
+        text-align: center;
+}
+
+      body { background-color:#333; }
+        #snow{
+          background: none;
+          font-family: Androgyne;
+          background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+          height: 100%;
+          left: 0;
+          position: absolute;
+          top: 0;
+          width: 100%;
+          z-index:1;
+          -webkit-animation: snow 10s linear infinite;
+          -moz-animation: snow 10s linear infinite;
+          -ms-animation: snow 10s linear infinite;
+          animation: snow 10s linear infinite;
+        }
+        @keyframes snow {
+          0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+          50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+          100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+        }
+        @-moz-keyframes snow {
+          0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+          50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+          100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+        }
+        @-webkit-keyframes snow {
+          0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+          50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+          100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+        }
+        @-ms-keyframes snow {
+          0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+          50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+          100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+        } 
+
+	</style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div>
+      <h1>Welcome to My Website!</h1>
+      <img src="welcome.gif" alt="Welcome!" height="400px" width="600px"> 
+      <h4>1v1 me m8, I'll rek u any day B)</h4>
+    </div>
+
+    <div>
+      <h2>Who am I?</h2>
+      <p>My name is Nam Ngo and I am a rising Sophomore at Alpha: Cindy Avitia.</p>
+    </div>
+
+    <div>
+      <h2>Likes</h2>
+      <ul>
+        <li>Dank Maymays</li>
+        <li>Salty Tryhards</li>
+        <li>Vidya Games</li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>Dislikes</h2>
+      <ul>
+        <li>Reading</li>
+        <li>School</li>
+        <li>Trying New Things</li>
+      </ul>
+    </div>
+
+      <div>
+        <h2>Favorite Hobbies</h2>
+        <img src="Osulogo.png" alt="osu!" height="250px">
+        <img src="LeagueLogo.jpeg" alt="League of Legends" height="250px">
+        <img src="paintsai.png" alt="Paint Sai logo" height="275px">
+      </div>
+
+      <div>
+        <h2>Favorite Songs</h2>
+        <iframe width="375" height="315" src="https://www.youtube.com/embed/0bOV4ExHPZY" frameborder="0" allowfullscreen></iframe>
+        <iframe width="375" height="315" src="https://www.youtube.com/embed/ErI0Y3clnkM" frameborder="0" allowfullscreen></iframe>
+        <iframe width="375" height="315" src="https://www.youtube.com/embed/WZ_pqhEZ_8g" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div>
+        <h2>Favorite Drawings</h2>
+        <a href="http://ameriya.deviantart.com/art/Miku-Day-2016-595541037"><img src="mikuday2016.png" alt="Miku Day 2016" height="350" width="475"></a>
+        <a href="http://yamio.deviantart.com/art/iLove-527535687"><img src="ilove.png" alt="iLove by Yamio" height="400" width="350"></a>
+        <a href="http://neko-rina.deviantart.com/art/Speedpaint-COM-for-Yoonsi-584440219"><img src="haruna.png" alt="Haruna" height="400" width="300"></a>
+      </div>
+
+    </div>
+
+    <div>
+      <h2>↓ Psst! You should totally click on those! c: ↓</h2>
+    </div>
+
+    <div>
+      <a href="http://kissanime.to/" target="_blank"><img src="kissanime.png" alt="Kissanime logo" height="250px" width="600px"></a>
+      <a href="http://www.deviantart.com/" target="_blank"><img src="deviantartlogo.png" alt="Deviantart logo" height="250px" width="500px"></a>
+      <a href="http://www.crunchyroll.com/" target="_blank"><img src="crunchyroll.png" alt="Crunchyroll logo" height="300px" width="600px"></a>
+    </div>
+
+    <div id="snow">
+    </div>
+
+</body>
+</html>
