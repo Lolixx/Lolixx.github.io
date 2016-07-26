@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="icon" href="getdunkedon.jpg">
     <title>geeettttttt dunked on!!</title>
     <meta name="description" content="Hello, Keyboard!">
     <script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
@@ -12,13 +13,15 @@
   </head>
   <body>
     <a-scene>
-      <a-sky src="texture.jpg"></a-sky>
-      <a-camera position="0 0 0">
+      <a-sky src="sans.jpg"></a-sky>
+      <a-camera position="3 0 0">
         <a-cursor color="#FFFFFF">
       </a-camera>
-      <a-plane src="getdunkedon.jpg" height="5" width="5" position="0 0 -6" rotation="0 0 0">
+      <a-plane src="getdunkedon.jpg" height="5" width="5" position="-3 0 0" rotation="0 90 0">
       </a-plane>
-      <a-entity id="sound-entity" sound="src: bgm.mp3; autoplay: true" position="0 0 0">
+      <a-entity id="sound-identity" sound="src: bgm.mp3; autoplay: true" position="3 0 0">
+      </a-entity>
+      <a-entity id="sound-identity" sound="src: floweylaugh.mp3; autoplay: true" position="3 0 0">
       </a-entity>
     </a-scene>
   </body>
